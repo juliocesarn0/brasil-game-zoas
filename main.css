@@ -1,0 +1,75 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.navbar {
+  background-color: #4AA2D9;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff;
+  color: #4AA2D9;
+}
+
+#carousel {
+  width: 100%; /* Define a largura do carousel como 100% do contêiner pai */
+  max-width: 800px; /* Define a largura máxima do carousel */
+  height: 400px; /* Define a altura do carousel */
+  margin: auto; /* Centraliza o carousel no contêiner pai */
+}
+
+.carousel-inner img {
+  width: 100%; /* Garante que as imagens ocupem 100% da largura do carousel */
+  height: 100%; /* Garante que as imagens ocupem 100% da altura do carousel */
+  object-fit: cover; /* Faz com que as imagens cubram todo o espaço, mantendo a proporção */
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-calendario .nav-link.active:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #99D9F2;
+}
+
+.section-title {
+  font-family: Overpass, sans-serif;
+}
+
+#sobre-o-evento,
+#calendario {
+  background-color: #99D9F2;
+}
+
+.text-colored {
+  color: #4AA2D9;
+}
+
+.nav-calendario .nav-link.active,
+#fale-conosco button {
+  background-color: #4AA2D9;
+  color: #fff;
+}
+
+.nav-calendario .nav-link:hover {
+  color: #4AA2D9;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 280px;
+  }
+}
